@@ -1,0 +1,15 @@
+f=open("C:/Users/pc/Desktop/file1.txt","r")
+print(f.read())
+print(f.name)
+print(f.mode)
+print(f.closed)
+f.close()
+print(f.closed)
+f1=open("C:/Users/pc/Desktop/file1.txt","w")
+f1.write("hello \nhow are you")
+f1.close()
+f=open("C:/Users/pc/Desktop/file1.txt","r")
+print(f.read())
+f.close()
+
+
