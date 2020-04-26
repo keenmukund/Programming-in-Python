@@ -1,0 +1,29 @@
+l=[1,2,"a",7.4,4]
+for i in l:
+    print(i)
+m=[1,2,3,9]
+l.extend(m)
+print(l)
+n=[]
+n.extend(l)
+print(n)
+print(l)
+m.insert(2,5)
+print(m)
+m.remove(1)
+print(m)
+for i in m:
+   print(i,m.index(i))
+m=[1,6,7,2,1,8,1,7,1,4]
+print(m.count(1))
+print(m.pop(1))
+print(m)
+m.reverse()
+print(m)
+k=[]
+t=(2,7,5,"a",4)
+print(any(t))
+t=()
+print(any(t))
+print(any(m))
+print(len(t))
